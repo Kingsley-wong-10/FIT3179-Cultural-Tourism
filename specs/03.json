@@ -1,0 +1,123 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 290,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "projection": {
+    "type": "mercator"
+  },
+  "params": [
+    {
+      "name": "heritageClass",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Historic",
+          "Indigenous"
+        ],
+        "name": "Heritage class: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e7eeea",
+        "stroke": "white",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/heritage_points.json"
+      },
+      "transform": [
+        {
+          "filter": "heritageClass == 'All' || indexof(datum.class, heritageClass) >= 0"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 36,
+        "opacity": 0.8,
+        "stroke": "white",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "class",
+          "type": "nominal",
+          "title": "Listing class",
+          "scale": {
+            "range": [
+              "#C16742",
+              "#24828A",
+              "#B58E3B"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "title": "Place"
+          },
+          {
+            "field": "class",
+            "title": "Class"
+          },
+          {
+            "field": "state",
+            "title": "State"
+          }
+        ]
+      }
+    }
+  ]
+}

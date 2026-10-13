@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/victoria_markets.json"
+  },
+  "encoding": {
+    "x": {
+      "field": "visitors",
+      "type": "quantitative",
+      "title": "Cultural visits",
+      "axis": {
+        "format": ".2s"
+      },
+      "scale": {
+        "domain": [
+          0,
+          290000
+        ]
+      }
+    },
+    "y": {
+      "field": "average_nights",
+      "type": "quantitative",
+      "title": "Average nights per visit",
+      "scale": {
+        "domain": [
+          0,
+          70
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "country",
+        "title": "Market"
+      },
+      {
+        "field": "visitors",
+        "title": "Visits",
+        "format": ",.0f",
+        "type": "quantitative"
+      },
+      {
+        "field": "average_nights",
+        "title": "Average nights",
+        "format": ".1f",
+        "type": "quantitative"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "size": 100,
+        "color": "#C16742",
+        "opacity": 0.8
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "indexof(['China','India','New Zealand','United Kingdom'], datum.country) >= 0"
+        },
+        {
+          "calculate": "datum.country == 'United Kingdom' ? 'UK' : datum.country == 'New Zealand' ? 'NZ' : datum.country",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontSize": 10,
+        "color": "#233F49"
+      },
+      "encoding": {
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+/* Plain, responsive layout for the cultural tourism data story. */
+:root {
+  --ink: #222;
+  --muted: #555;
+  --line: #ddd;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.55;
+}
+.hero-inner, main, footer { max-width: 1360px; margin: auto; padding: 0 32px; }
+.hero-inner { padding-top: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.topline { display: flex; justify-content: space-between; gap: 16px; font-size: 12px; color: var(--muted); margin-bottom: 24px; }
+.eyebrow { font-size: 12px; font-weight: bold; margin: 0 0 8px; color: var(--muted); }
+h1 { font-size: 36px; line-height: 1.2; margin: 12px 0; }
+h1 br { display: none; }
+h1 em { font-style: normal; }
+.hero-deck { font-size: 17px; max-width: 800px; margin: 12px 0; }
+.hero-bottom { font-size: 12px; color: var(--muted); }
+.hero-bottom p { margin: 16px 0 0; }
+.scroll-cue { display: none; }
+.reading-note { padding: 22px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.reading-note p { margin: 6px 0; max-width: 1050px; }
+.reading-note > span { color: var(--muted); font-size: 12px; }
+.story-section { padding: 34px 0 8px; }
+.section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 20px; }
+.section-number { font-size: 22px; font-weight: bold; color: var(--muted); }
+h2 { font-size: 25px; line-height: 1.3; margin: 0 0 10px; }
+.intro { font-size: 15px; max-width: 1000px; margin: 0; color: var(--muted); }
+.chart-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.chart-card { min-width: 0; border: 1px solid var(--line); padding: 18px 16px; display: flex; flex-direction: column; }
+.card-heading { display: flex; align-items: baseline; gap: 8px; min-height: 48px; }
+h3 { font-size: 16px; line-height: 1.4; margin: 0; }
+.chart-number { color: var(--muted); font-size: 12px; }
+.chart-subtitle { font-size: 12px; color: var(--muted); margin: 8px 0 14px; min-height: 38px; }
+.chart { width: 100%; min-width: 0; min-height: 320px; position: relative; }
+.chart .vega-embed { width: 100%; padding: 0 !important; }
+.chart canvas, .chart svg { max-width: 100%; }
+.vega-bindings { font-size: 12px; margin-top: 6px; }
+.vega-bind select { font: inherit; background: #fff; color: var(--ink); border: 1px solid #aaa; padding: 4px; max-width: 100%; }
+.insight { font-size: 14px; margin: 12px 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.chart-note { font-size: 12px; color: var(--muted); margin: 0 0 12px; }
+.spec-link { font-size: 11px; margin-top: auto; align-self: flex-start; }
+a { color: #285978; text-underline-offset: 3px; }
+a:hover { color: #111; }
+a:focus-visible, select:focus-visible { outline: 2px solid #285978; outline-offset: 3px; }
+.takeaway { margin-top: 34px; padding: 24px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.takeaway p:last-child { max-width: 1100px; font-size: 15px; margin-bottom: 0; }
+.methodology { padding: 30px 0; }
+.method-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; font-size: 13px; color: var(--muted); }
+.method-grid h3 { margin-top: 18px; font-size: 15px; color: var(--ink); }
+.method-grid ul { padding-left: 18px; }
+.method-grid li { padding-bottom: 7px; }
+footer { border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; gap: 20px; font-size: 12px; color: var(--muted); }
+.loading { font-size: 12px; color: var(--muted); }
+.error { color: #913c24; font-size: 13px; }
+@media (max-width: 1050px) {
+  .chart-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .chart-card:last-child { grid-column: 1 / -1; width: calc(50% - 9px); justify-self: center; }
+}
+@media (max-width: 650px) {
+  .hero-inner, main, footer { padding-left: 20px; padding-right: 20px; }
+  .topline { font-size: 10px; }
+  h1 { font-size: 29px; }
+  h2 { font-size: 22px; }
+  .hero-deck { font-size: 16px; }
+  .section-heading { gap: 10px; }
+  .section-number { font-size: 18px; }
+  .chart-grid { grid-template-columns: 1fr; }
+  .chart-card:last-child { grid-column: auto; width: 100%; }
+  .method-grid { grid-template-columns: 1fr; gap: 0; }
+  footer { display: block; }
+  footer span { display: block; margin-top: 5px; }
+}
+@media print {
+  .chart-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .chart-card { break-inside: avoid; }
+  .chart-card:last-child { width: 100%; grid-column: auto; }
+  .vega-bindings, .spec-link { display: none; }
+  .story-section { break-before: page; }
+}

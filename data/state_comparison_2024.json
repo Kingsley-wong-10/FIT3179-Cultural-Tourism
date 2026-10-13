@@ -1,0 +1,74 @@
+[
+  {
+    "state": "New South Wales",
+    "year": 2024,
+    "cultural_visits": 12921941,
+    "all_visits": 101136477.68774699,
+    "cultural_share": 0.12776736243371797,
+    "visits_2019": 14105352,
+    "change_2019_2024": -0.08389801261251761
+  },
+  {
+    "state": "Victoria",
+    "year": 2024,
+    "cultural_visits": 11465569,
+    "all_visits": 88466399.08999401,
+    "cultural_share": 0.1296036587669455,
+    "visits_2019": 11933239,
+    "change_2019_2024": -0.03919053326594735
+  },
+  {
+    "state": "Queensland",
+    "year": 2024,
+    "cultural_visits": 6591774,
+    "all_visits": 71422821.29974423,
+    "cultural_share": 0.09229226569384491,
+    "visits_2019": 7530003,
+    "change_2019_2024": -0.12459875513993823
+  },
+  {
+    "state": "South Australia",
+    "year": 2024,
+    "cultural_visits": 1971867,
+    "all_visits": 21158642.193485633,
+    "cultural_share": 0.09319440169970371,
+    "visits_2019": 2727523,
+    "change_2019_2024": -0.27704844285456076
+  },
+  {
+    "state": "Western Australia",
+    "year": 2024,
+    "cultural_visits": 3259717,
+    "all_visits": 30752054.595742323,
+    "cultural_share": 0.10599997440337901,
+    "visits_2019": 3923419,
+    "change_2019_2024": -0.1691641907224286
+  },
+  {
+    "state": "Tasmania",
+    "year": 2024,
+    "cultural_visits": 1383077,
+    "all_visits": 9130827.283341385,
+    "cultural_share": 0.1514733503417961,
+    "visits_2019": 1757468,
+    "change_2019_2024": -0.21302862982426995
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2024,
+    "cultural_visits": 664132,
+    "all_visits": 2620331.6445141053,
+    "cultural_share": 0.2534534135747354,
+    "visits_2019": 965888,
+    "change_2019_2024": -0.31241303339517623
+  },
+  {
+    "state": "ACT",
+    "year": 2024,
+    "cultural_visits": 1498844,
+    "all_visits": 5516505.311946445,
+    "cultural_share": 0.27170172332729026,
+    "visits_2019": 1740688,
+    "change_2019_2024": -0.13893586903569166
+  }
+]

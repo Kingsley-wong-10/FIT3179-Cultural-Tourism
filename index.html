@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore cultural tourism across Australia: visitor participation, recovery, heritage and a Victoria case study of experiences and spending.">
+<title>Cultural Tourism in Australia</title>
+<link rel="stylesheet" href="styles.css">
+<script src="vendor/vega.min.js" defer>
+</script>
+<script src="vendor/vega-lite.min.js" defer>
+</script>
+<script src="vendor/vega-embed.min.js" defer>
+</script>
+<script src="app.js" defer>
+</script>
+</head>
+<body>
+<header class="hero">
+<div class="hero-inner">
+<div class="topline">
+<span>AUSTRALIA / CULTURAL TOURISM</span>
+<span>FIT3179 · DATA VISUALISATION 2</span>
+</div>
+<p class="eyebrow">MUSEUMS · GALLERIES · HERITAGE · CULTURAL EXPERIENCES</p>
+<h1>Cultural Tourism in Australia</h1>
+<p class="hero-deck">How do cultural visits differ across Australian states, and what do visitor activities and spending show in Victoria?</p>
+<div class="hero-bottom">
+<p>By <strong>Kingsley Wong</strong>
+<br>Tourism: year ending December 2024 · Heritage inventory: October 2026</p>
+</div>
+</div>
+</header>
+<main>
+<aside class="reading-note">
+<strong>About the data</strong>
+<p>A cultural visitor takes part in at least one of the six activities explored below. Figures estimate visits or trips by people aged 15+, <strong>not unique people</strong>. Start with Australia, then zoom in to Victoria for a detailed case study.</p>
+<span>Hover for details · Use the two dropdown filters</span>
+</aside>
+<section class="story-section" aria-labelledby="section-01">
+<div class="section-heading">
+<span class="section-number">01</span>
+<div>
+<p class="eyebrow">AUSTRALIA · GEOGRAPHY</p>
+<h2 id="section-01">Cultural visits across Australia</h2>
+<p class="intro">Volume and participation tell different stories. Large states attract more cultural visits, while smaller destinations can have a greater cultural share.</p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">01</span>
+<h3>Cultural visitors as a share of all visits</h3>
+</div>
+<p class="chart-subtitle">Estimated cultural share of all state visits · 2024</p>
+<div id="chart-01" class="chart" role="figure" aria-label="Cultural visitors as a share of all visits">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">The ACT leads at <strong>27.2%</strong>, followed by the Northern Territory at <strong>25.3%</strong>.</p>
+<p class="chart-note">ACT = Australian Capital Territory, the small territory around Canberra. Its share is called out here because it is difficult to see at this scale.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">02</span>
+<h3>Number of cultural visits by state</h3>
+</div>
+<p class="chart-subtitle">Cultural visits by state · 2024</p>
+<div id="chart-02" class="chart" role="figure" aria-label="Number of cultural visits by state">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">New South Wales and Victoria receive the most cultural visits: <strong>12.9m</strong> and <strong>11.5m</strong>.</p>
+<p class="chart-note">Circle area represents visits. Hover to compare states. Trips can include several states; state totals cannot be added to obtain a national total.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">03</span>
+<h3>Listed cultural heritage places</h3>
+</div>
+<p class="chart-subtitle">Historic and Indigenous heritage places · 2026 inventory</p>
+<div id="chart-03" class="chart" role="figure" aria-label="Listed cultural heritage places">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">Across all heritage categories in this dataset, there are <strong>90 listed places</strong> with Historic or Indigenous classification. The dropdown filters which places appear on the map. These are heritage records, not visitor counts.</p>
+<p class="chart-note">Filter by listing class and hover for names. Locations are approximate; offshore places widen this map’s extent. A listing does not imply public access or measure tourism demand.</p>
+</article>
+</div>
+</section>
+<section class="story-section" aria-labelledby="section-02">
+<div class="section-heading">
+<span class="section-number">02</span>
+<div>
+<p class="eyebrow">AUSTRALIA → VICTORIA · CHANGE & REACH</p>
+<h2 id="section-02">Changes over time and regional visits</h2>
+<p class="intro">National cultural visits remain below 2019 levels. A closer look at Victoria reveals how visitor types differ in their connection with regional destinations.</p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">04</span>
+<h3>National cultural visits over time</h3>
+</div>
+<p class="chart-subtitle">Australia · annual cultural visits, 2012-2024</p>
+<div id="chart-04" class="chart" role="figure" aria-label="National cultural visits over time">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">There were <strong>37.1m</strong> cultural visits in 2024, <strong>10.3% below 2019</strong>.</p>
+<p class="chart-note">No line is drawn for 2020-2022 because comparable annual international activity detail is unavailable. Missing observations are not zero.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">05</span>
+<h3>State visits in 2019 and 2024</h3>
+</div>
+<p class="chart-subtitle">Cultural visits · 2019 compared with 2024</p>
+<div id="chart-05" class="chart" role="figure" aria-label="State visits in 2019 and 2024">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">Victoria is closest to its 2019 level (<strong>-3.9%</strong>); the Northern Territory is furthest below (<strong>-31.2%</strong>).</p>
+<p class="chart-note">Hover on either endpoint for the estimate and percentage change. Both years use the same count scale.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">06</span>
+<h3>Regional visits by visitor type</h3>
+</div>
+<p class="chart-subtitle">Regional visits among cultural visitors · Victoria, 2024</p>
+<div id="chart-06" class="chart" role="figure" aria-label="Regional visits by visitor type">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">About <strong>53%</strong> of domestic cultural visitors visit regional Victoria, compared with <strong>17%</strong> of international cultural visitors.</p>
+<p class="chart-note">Regional and metropolitan travel may occur on the same trip. “No regional visit” is the remainder, not a count of metropolitan-only tourism from a separate survey.</p>
+</article>
+</div>
+</section>
+<section class="story-section" aria-labelledby="section-03">
+<div class="section-heading">
+<span class="section-number">03</span>
+<div>
+<p class="eyebrow">VICTORIA CASE STUDY · EXPERIENCES</p>
+<h2 id="section-03">Cultural activities and visitor behaviour</h2>
+<p class="intro">Visitor type helps explain the mix of cultural experiences. International source markets also differ in trip duration, so visit counts alone tell only part of the story.</p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">07</span>
+<h3>Activity participation by visitor type</h3>
+</div>
+<p class="chart-subtitle">Activity participation within each cultural visitor type · 2024</p>
+<div id="chart-07" class="chart" role="figure" aria-label="Activity participation by visitor type">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">Museums and galleries feature in about <strong>76%</strong> of international cultural visits, compared with <strong>31%</strong> of domestic day trips.</p>
+<p class="chart-note">Values are percentages of cultural visitors within each type. Activities overlap; a visitor may appear in several rows. Hover for exact percentages.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">08</span>
+<h3>Visits by cultural activity</h3>
+</div>
+<p class="chart-subtitle">Cultural activity visits · Victoria, 2024</p>
+<div id="chart-08" class="chart" role="figure" aria-label="Visits by cultural activity">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">Across all visitor types combined, museums and galleries feature in <strong>5.1m cultural visits</strong>, around <strong>45%</strong> of Victoria’s cultural visitor total. The dropdown shows activity counts for the selected visitor type.</p>
+<p class="chart-note">Use the visitor-type filter to compare activity patterns. The common axis keeps comparisons consistent. Do not add overlapping activity counts.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">09</span>
+<h3>International visits and average stay</h3>
+</div>
+<p class="chart-subtitle">Top ten international cultural source markets · Victoria, 2024</p>
+<div id="chart-09" class="chart" role="figure" aria-label="International visits and average stay">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">China supplies the most cultural visits in this group; visitors from India stay the longest on average, at <strong>61 nights</strong>.</p>
+<p class="chart-note">Hover on a point for its country. The chart covers the published top ten markets, not all countries. Nights describe the visit, not time spent at cultural attractions.</p>
+</article>
+</div>
+</section>
+<section class="story-section" aria-labelledby="section-04">
+<div class="section-heading">
+<span class="section-number">04</span>
+<div>
+<p class="eyebrow">VICTORIA CASE STUDY · SPENDING</p>
+<h2 id="section-04">Cultural visitor spending</h2>
+<p class="intro">Cultural visitors account for a substantial share of Victoria’s visitor economy. These figures describe their whole trips, including accommodation, food and other purchases.</p>
+</div>
+</div>
+<div class="chart-grid">
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">10</span>
+<h3>Share of visits and spending</h3>
+</div>
+<p class="chart-subtitle">Cultural visitors’ share of all visits and spending · Victoria, 2024</p>
+<div id="chart-10" class="chart" role="figure" aria-label="Share of visits and spending">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">Cultural visitors represent roughly <strong>one in eight visits</strong>, but <strong>one in three dollars</strong> of visitor spending.</p>
+<p class="chart-note">Each square represents one percentage point, rounded to the nearest whole point. This association does not show that culture causes higher spending.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">11</span>
+<h3>Spending by visitor type</h3>
+</div>
+<p class="chart-subtitle">Whole-trip spending by cultural visitor type · Victoria, 2024</p>
+<div id="chart-11" class="chart" role="figure" aria-label="Spending by visitor type">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">International cultural visitors account for <strong>$6.83bn</strong> of the <strong>$13.16bn</strong> total.</p>
+<p class="chart-note">Rectangle area represents spending in Australian dollars (AUD). Hover for exact spending and share. This is not cultural attraction revenue.</p>
+</article>
+<article class="chart-card">
+<div class="card-heading">
+<span class="chart-number">12</span>
+<h3>Spending compared with 2019</h3>
+</div>
+<p class="chart-subtitle">Nominal cultural visitor spending · Victoria, 2019 = 100</p>
+<div id="chart-12" class="chart" role="figure" aria-label="Spending compared with 2019">
+<p class="loading">Loading chart…</p>
+</div>
+<p class="insight">Domestic day-trip spending reaches an index of <strong>157</strong>, compared with <strong>144</strong> for overnight and <strong>110</strong> for international visitors.</p>
+<p class="chart-note">The dark marker is the 2019 baseline of 100. Values are not adjusted for inflation, so the chart does not measure real spending growth.</p>
+</article>
+</div>
+</section>
+<section class="takeaway">
+<p class="eyebrow">WHAT THE DATA TELLS US</p>
+<h2>Main findings</h2>
+<p>Cultural tourism has several dimensions: the share of trips associated with culture, the places people reach, the experiences they choose and the spending across their entire stay. Australia’s largest cultural visitor markets are not necessarily those with the highest participation share. In Victoria, domestic visitors show stronger regional reach, while international visitors account for over half of cultural visitor spending.</p>
+</section>
+<section class="methodology" aria-labelledby="sources">
+<p class="eyebrow">SOURCES & READING THE DATA</p>
+<h2 id="sources">Sources and credits</h2>
+<div class="method-grid">
+<div>
+<h3>Tourism estimates</h3>
+<p>
+<a href="https://creative.vic.gov.au/resources/data-insights/victorias-cultural-visitation">Creative Victoria: Victoria’s cultural visitation</a>, based on Tourism Research Australia’s National and International Visitor Surveys, supplies cultural visits, activities, regional reach, markets and spending. Tourism figures refer to the year ending December 2024 unless another year is shown.</p>
+<p>State share denominators combine domestic day trips, domestic overnight trips and international state visits from TRA’s <a href="https://www.tra.gov.au/en/tourism-statistics/national-visitor-survey-results">December 2024 NVS results</a> and <a href="https://www.tra.gov.au/en/tourism-statistics/international-tourism-results/international-tourism-results-december-2024">December 2024 IVS results</a>. The Victoria estimate reproduces the publisher’s reported share. These are related survey sources, not independent datasets.</p>
+<h3>Heritage and map boundaries</h3>
+<p>
+<a href="https://www.dcceew.gov.au/environment/environmental-information-data/web-services">DCCEEW National Heritage List public spatial database</a>, accessed 7 October 2026: 90 distinct place IDs with Listed place status and Historic or Indigenous classification. Source geometry is converted to approximate representative points. Licence: <a href="https://creativecommons.org/licenses/by/3.0/au/">CC BY 3.0 AU</a>.</p>
+<p>State boundaries: Australian Bureau of Statistics 2021 boundaries via <a href="https://www.geoboundaries.org/">geoBoundaries</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, simplified for display. Other Territories and remote offshore islands are omitted from these eight-state comparisons.</p>
+</div>
+<div>
+<h3>Reading the data</h3>
+<p>International cultural activity may occur anywhere on an Australian trip; domestic cultural activity is destination-specific. State shares combine these definitions. Survey figures are estimates.</p>
+<p>The 2026 heritage inventory provides context alongside 2024 tourism data; it does not measure visits to heritage places. The tourism charts use the latest detailed cultural breakdown located for this project.</p>
+<h3>Author and acknowledgement</h3>
+<p>Kingsley Wong · October 2026.</p>
+<p><a href="https://github.com/Kingsley-wong-10/FIT3179-Cultural-Tourism">Source code and chart JSON files</a></p>
+</div>
+</div>
+</section>
+</main>
+<footer>Cultural Tourism in Australia <span>Australia → Victoria · 2024 tourism / 2026 heritage</span>
+</footer>
+</body>
+</html>

@@ -1,0 +1,452 @@
+[
+  {
+    "state": "Victoria",
+    "year": 2012,
+    "cultural_visits": 7013426
+  },
+  {
+    "state": "Victoria",
+    "year": 2013,
+    "cultural_visits": 7159918
+  },
+  {
+    "state": "Victoria",
+    "year": 2014,
+    "cultural_visits": 8116393
+  },
+  {
+    "state": "Victoria",
+    "year": 2015,
+    "cultural_visits": 8788156
+  },
+  {
+    "state": "Victoria",
+    "year": 2016,
+    "cultural_visits": 9680449
+  },
+  {
+    "state": "Victoria",
+    "year": 2017,
+    "cultural_visits": 10500145
+  },
+  {
+    "state": "Victoria",
+    "year": 2018,
+    "cultural_visits": 11102616
+  },
+  {
+    "state": "Victoria",
+    "year": 2019,
+    "cultural_visits": 11933239
+  },
+  {
+    "state": "Victoria",
+    "year": 2023,
+    "cultural_visits": 11506981
+  },
+  {
+    "state": "Victoria",
+    "year": 2024,
+    "cultural_visits": 11465569
+  },
+  {
+    "state": "New South Wales",
+    "year": 2012,
+    "cultural_visits": 9494997
+  },
+  {
+    "state": "New South Wales",
+    "year": 2013,
+    "cultural_visits": 9761963
+  },
+  {
+    "state": "New South Wales",
+    "year": 2014,
+    "cultural_visits": 10600595
+  },
+  {
+    "state": "New South Wales",
+    "year": 2015,
+    "cultural_visits": 11624336
+  },
+  {
+    "state": "New South Wales",
+    "year": 2016,
+    "cultural_visits": 12277361
+  },
+  {
+    "state": "New South Wales",
+    "year": 2017,
+    "cultural_visits": 12778914
+  },
+  {
+    "state": "New South Wales",
+    "year": 2018,
+    "cultural_visits": 13683077
+  },
+  {
+    "state": "New South Wales",
+    "year": 2019,
+    "cultural_visits": 14105352
+  },
+  {
+    "state": "New South Wales",
+    "year": 2023,
+    "cultural_visits": 13003045
+  },
+  {
+    "state": "New South Wales",
+    "year": 2024,
+    "cultural_visits": 12921941
+  },
+  {
+    "state": "Queensland",
+    "year": 2012,
+    "cultural_visits": 4705224
+  },
+  {
+    "state": "Queensland",
+    "year": 2013,
+    "cultural_visits": 5077537
+  },
+  {
+    "state": "Queensland",
+    "year": 2014,
+    "cultural_visits": 5808331
+  },
+  {
+    "state": "Queensland",
+    "year": 2015,
+    "cultural_visits": 5962032
+  },
+  {
+    "state": "Queensland",
+    "year": 2016,
+    "cultural_visits": 6116938
+  },
+  {
+    "state": "Queensland",
+    "year": 2017,
+    "cultural_visits": 6222577
+  },
+  {
+    "state": "Queensland",
+    "year": 2018,
+    "cultural_visits": 7285401
+  },
+  {
+    "state": "Queensland",
+    "year": 2019,
+    "cultural_visits": 7530003
+  },
+  {
+    "state": "Queensland",
+    "year": 2023,
+    "cultural_visits": 6975500
+  },
+  {
+    "state": "Queensland",
+    "year": 2024,
+    "cultural_visits": 6591774
+  },
+  {
+    "state": "Western Australia",
+    "year": 2012,
+    "cultural_visits": 2140957
+  },
+  {
+    "state": "Western Australia",
+    "year": 2013,
+    "cultural_visits": 2636845
+  },
+  {
+    "state": "Western Australia",
+    "year": 2014,
+    "cultural_visits": 3304418
+  },
+  {
+    "state": "Western Australia",
+    "year": 2015,
+    "cultural_visits": 3309883
+  },
+  {
+    "state": "Western Australia",
+    "year": 2016,
+    "cultural_visits": 3382381
+  },
+  {
+    "state": "Western Australia",
+    "year": 2017,
+    "cultural_visits": 3093816
+  },
+  {
+    "state": "Western Australia",
+    "year": 2018,
+    "cultural_visits": 3313802
+  },
+  {
+    "state": "Western Australia",
+    "year": 2019,
+    "cultural_visits": 3923419
+  },
+  {
+    "state": "Western Australia",
+    "year": 2023,
+    "cultural_visits": 3702441
+  },
+  {
+    "state": "Western Australia",
+    "year": 2024,
+    "cultural_visits": 3259717
+  },
+  {
+    "state": "South Australia",
+    "year": 2012,
+    "cultural_visits": 1667813
+  },
+  {
+    "state": "South Australia",
+    "year": 2013,
+    "cultural_visits": 1832375
+  },
+  {
+    "state": "South Australia",
+    "year": 2014,
+    "cultural_visits": 2078784
+  },
+  {
+    "state": "South Australia",
+    "year": 2015,
+    "cultural_visits": 2245980
+  },
+  {
+    "state": "South Australia",
+    "year": 2016,
+    "cultural_visits": 2066198
+  },
+  {
+    "state": "South Australia",
+    "year": 2017,
+    "cultural_visits": 2309255
+  },
+  {
+    "state": "South Australia",
+    "year": 2018,
+    "cultural_visits": 2333406
+  },
+  {
+    "state": "South Australia",
+    "year": 2019,
+    "cultural_visits": 2727523
+  },
+  {
+    "state": "South Australia",
+    "year": 2023,
+    "cultural_visits": 2729426
+  },
+  {
+    "state": "South Australia",
+    "year": 2024,
+    "cultural_visits": 1971867
+  },
+  {
+    "state": "ACT",
+    "year": 2012,
+    "cultural_visits": 999850
+  },
+  {
+    "state": "ACT",
+    "year": 2013,
+    "cultural_visits": 1236349
+  },
+  {
+    "state": "ACT",
+    "year": 2014,
+    "cultural_visits": 1121413
+  },
+  {
+    "state": "ACT",
+    "year": 2015,
+    "cultural_visits": 1257645
+  },
+  {
+    "state": "ACT",
+    "year": 2016,
+    "cultural_visits": 1319289
+  },
+  {
+    "state": "ACT",
+    "year": 2017,
+    "cultural_visits": 1432414
+  },
+  {
+    "state": "ACT",
+    "year": 2018,
+    "cultural_visits": 1650033
+  },
+  {
+    "state": "ACT",
+    "year": 2019,
+    "cultural_visits": 1740688
+  },
+  {
+    "state": "ACT",
+    "year": 2023,
+    "cultural_visits": 1375041
+  },
+  {
+    "state": "ACT",
+    "year": 2024,
+    "cultural_visits": 1498844
+  },
+  {
+    "state": "Tasmania",
+    "year": 2012,
+    "cultural_visits": 1103544
+  },
+  {
+    "state": "Tasmania",
+    "year": 2013,
+    "cultural_visits": 1120453
+  },
+  {
+    "state": "Tasmania",
+    "year": 2014,
+    "cultural_visits": 1276339
+  },
+  {
+    "state": "Tasmania",
+    "year": 2015,
+    "cultural_visits": 1606160
+  },
+  {
+    "state": "Tasmania",
+    "year": 2016,
+    "cultural_visits": 1422947
+  },
+  {
+    "state": "Tasmania",
+    "year": 2017,
+    "cultural_visits": 1479358
+  },
+  {
+    "state": "Tasmania",
+    "year": 2018,
+    "cultural_visits": 1716587
+  },
+  {
+    "state": "Tasmania",
+    "year": 2019,
+    "cultural_visits": 1757468
+  },
+  {
+    "state": "Tasmania",
+    "year": 2023,
+    "cultural_visits": 1428010
+  },
+  {
+    "state": "Tasmania",
+    "year": 2024,
+    "cultural_visits": 1383077
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2012,
+    "cultural_visits": 603957
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2013,
+    "cultural_visits": 553203
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2014,
+    "cultural_visits": 833785
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2015,
+    "cultural_visits": 828830
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2016,
+    "cultural_visits": 924245
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2017,
+    "cultural_visits": 883842
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2018,
+    "cultural_visits": 825173
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2019,
+    "cultural_visits": 965888
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2023,
+    "cultural_visits": 695618
+  },
+  {
+    "state": "Northern Territory",
+    "year": 2024,
+    "cultural_visits": 664132
+  },
+  {
+    "state": "Total",
+    "year": 2012,
+    "cultural_visits": 25443914
+  },
+  {
+    "state": "Total",
+    "year": 2013,
+    "cultural_visits": 26988070
+  },
+  {
+    "state": "Total",
+    "year": 2014,
+    "cultural_visits": 30568900
+  },
+  {
+    "state": "Total",
+    "year": 2015,
+    "cultural_visits": 32710678
+  },
+  {
+    "state": "Total",
+    "year": 2016,
+    "cultural_visits": 34007898
+  },
+  {
+    "state": "Total",
+    "year": 2017,
+    "cultural_visits": 35309456
+  },
+  {
+    "state": "Total",
+    "year": 2018,
+    "cultural_visits": 38487408
+  },
+  {
+    "state": "Total",
+    "year": 2019,
+    "cultural_visits": 41392453
+  },
+  {
+    "state": "Total",
+    "year": 2023,
+    "cultural_visits": 39166705
+  },
+  {
+    "state": "Total",
+    "year": 2024,
+    "cultural_visits": 37113238
+  }
+]

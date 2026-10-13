@@ -1,0 +1,110 @@
+[
+  {
+    "visitor_type": "Domestic Day",
+    "activity": "Visit museums or art galleries",
+    "visitors": 1507210,
+    "participation_percent": 30.8648872555224
+  },
+  {
+    "visitor_type": "Domestic Day",
+    "activity": "Attend theatre, concerts or other performing arts",
+    "visitors": 1359852,
+    "participation_percent": 27.84726709533549
+  },
+  {
+    "visitor_type": "Domestic Day",
+    "activity": "Visit history / heritage buildings, sites or monuments",
+    "visitors": 1003624,
+    "participation_percent": 20.55237979286105
+  },
+  {
+    "visitor_type": "Domestic Day",
+    "activity": "Attend festivals / fairs or cultural events",
+    "visitors": 828796,
+    "participation_percent": 16.97222407973369
+  },
+  {
+    "visitor_type": "Domestic Day",
+    "activity": "Indigenous cultural activity",
+    "visitors": 225351,
+    "participation_percent": 4.614764913894449
+  },
+  {
+    "visitor_type": "Domestic Day",
+    "activity": "Visit art / craft workshops / studios",
+    "visitors": 320184,
+    "participation_percent": 6.556786391582964
+  },
+  {
+    "visitor_type": "Domestic Overnight",
+    "activity": "Visit museums or art galleries",
+    "visitors": 2361878,
+    "participation_percent": 48.02981564897664
+  },
+  {
+    "visitor_type": "Domestic Overnight",
+    "activity": "Attend theatre, concerts or other performing arts",
+    "visitors": 1479281,
+    "participation_percent": 30.08182452816082
+  },
+  {
+    "visitor_type": "Domestic Overnight",
+    "activity": "Visit history / heritage buildings, sites or monuments",
+    "visitors": 1117667,
+    "participation_percent": 22.72824805123
+  },
+  {
+    "visitor_type": "Domestic Overnight",
+    "activity": "Attend festivals / fairs or cultural events",
+    "visitors": 623203,
+    "participation_percent": 12.67309905813249
+  },
+  {
+    "visitor_type": "Domestic Overnight",
+    "activity": "Indigenous cultural activity",
+    "visitors": 366399,
+    "participation_percent": 7.45088627848036
+  },
+  {
+    "visitor_type": "Domestic Overnight",
+    "activity": "Visit art / craft workshops / studios",
+    "visitors": 107938,
+    "participation_percent": 2.194960972776748
+  },
+  {
+    "visitor_type": "International",
+    "activity": "Visit museums or art galleries",
+    "visitors": 1266472,
+    "participation_percent": 76.07381997408845
+  },
+  {
+    "visitor_type": "International",
+    "activity": "Attend theatre, concerts or other performing arts",
+    "visitors": 380190,
+    "participation_percent": 22.83704991401021
+  },
+  {
+    "visitor_type": "International",
+    "activity": "Visit history / heritage buildings, sites or monuments",
+    "visitors": 919328,
+    "participation_percent": 55.22172070470188
+  },
+  {
+    "visitor_type": "International",
+    "activity": "Attend festivals / fairs or cultural events",
+    "visitors": 325856,
+    "participation_percent": 19.57336127902673
+  },
+  {
+    "visitor_type": "International",
+    "activity": "Indigenous cultural activity",
+    "visitors": 658594,
+    "participation_percent": 39.56008003540059
+  },
+  {
+    "visitor_type": "International",
+    "activity": "Visit art / craft workshops / studios",
+    "visitors": 174682,
+    "participation_percent": 10.49268570519466
+  }
+]

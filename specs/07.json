@@ -1,0 +1,139 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/activities_chart.json"
+  },
+  "transform": [
+    {
+      "filter": "datum.visitor_type != 'All visitors'"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "type",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "labelAngle": 0
+      },
+      "sort": [
+        "Day",
+        "Overnight",
+        "International"
+      ]
+    },
+    "y": {
+      "field": "label",
+      "type": "nominal",
+      "sort": [
+        "Museums & galleries",
+        "Performing arts",
+        "History & heritage",
+        "Festivals & fairs",
+        "Indigenous culture",
+        "Art & craft studios"
+      ],
+      "axis": {
+        "title": null,
+        "labelLimit": 150
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "color": {
+          "field": "participation_percent",
+          "type": "quantitative",
+          "title": "Participation (%)",
+          "scale": {
+            "domain": [
+              0,
+              80
+            ],
+            "range": [
+              "#edf3ed",
+              "#146873"
+            ]
+          },
+          "legend": {
+            "gradientLength": 120
+          }
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "title": "Activity"
+          },
+          {
+            "field": "visitor_type",
+            "title": "Visitor type"
+          },
+          {
+            "field": "participation_percent",
+            "title": "Participation (%)",
+            "format": ".1f",
+            "type": "quantitative"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "participation_percent",
+          "type": "quantitative",
+          "format": ".0f"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.participation_percent > 40",
+            "value": "white"
+          },
+          "value": "#233F49"
+        }
+      }
+    }
+  ]
+}

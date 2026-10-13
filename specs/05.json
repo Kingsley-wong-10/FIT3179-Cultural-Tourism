@@ -1,0 +1,154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/map_values.json"
+  },
+  "encoding": {
+    "y": {
+      "field": "abbr",
+      "type": "nominal",
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "ACT",
+        "TAS",
+        "NT"
+      ],
+      "axis": {
+        "title": null
+      }
+    },
+    "x": {
+      "field": "visits_2019",
+      "type": "quantitative",
+      "title": "Cultural visits",
+      "axis": {
+        "format": ".2s"
+      },
+      "scale": {
+        "domain": [
+          0,
+          15000000
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#bac9c4",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x2": {
+          "field": "cultural_visits"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "fold": [
+            "visits_2019",
+            "cultural_visits"
+          ],
+          "as": [
+            "period",
+            "visits"
+          ]
+        },
+        {
+          "calculate": "datum.period == 'visits_2019' ? '2019' : '2024'",
+          "as": "Year"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 65
+      },
+      "encoding": {
+        "x": {
+          "field": "visits",
+          "type": "quantitative",
+          "title": "Cultural visits",
+          "axis": {
+            "format": ".2s"
+          }
+        },
+        "color": {
+          "field": "Year",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "2019",
+              "2024"
+            ],
+            "range": [
+              "#aebdb7",
+              "#24828A"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "Year",
+            "title": "Year"
+          },
+          {
+            "field": "visits",
+            "title": "Cultural visits",
+            "format": ",.0f",
+            "type": "quantitative"
+          },
+          {
+            "field": "change_2019_2024",
+            "title": "Change, 2019\u201324",
+            "format": "+.1%",
+            "type": "quantitative"
+          }
+        ]
+      }
+    }
+  ]
+}

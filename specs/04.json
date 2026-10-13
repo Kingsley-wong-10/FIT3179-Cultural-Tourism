@@ -1,0 +1,113 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/state_cultural_visits.json"
+  },
+  "transform": [
+    {
+      "filter": "datum.state == 'Total'"
+    },
+    {
+      "calculate": "datum.year < 2020 ? '2012\u20132019' : '2023\u20132024'",
+      "as": "coverage"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": true,
+      "size": 45
+    },
+    "color": "#24828A",
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "title": "Year ending December",
+      "scale": {
+        "domain": [
+          2012,
+          2024
+        ]
+      },
+      "axis": {
+        "format": "d",
+        "values": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
+      }
+    },
+    "y": {
+      "field": "cultural_visits",
+      "type": "quantitative",
+      "title": "Cultural visits",
+      "axis": {
+        "format": ".2s"
+      },
+      "scale": {
+        "domain": [
+          0,
+          45000000
+        ]
+      }
+    },
+    "detail": {
+      "field": "coverage",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "title": "Year",
+        "format": "d",
+        "type": "quantitative"
+      },
+      {
+        "field": "cultural_visits",
+        "title": "National visits",
+        "format": ",.0f",
+        "type": "quantitative"
+      }
+    ]
+  }
+}

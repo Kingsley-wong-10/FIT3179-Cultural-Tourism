@@ -1,0 +1,1498 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 9,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 8,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 8,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 8,
+        "category": "Cultural",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 8,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 8,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 8,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 8,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 8,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 8,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 8,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 7,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 6,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 5,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 4,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 3,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 2,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 1,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 0,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 1,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 2,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 3,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 4,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 5,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 6,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 7,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 8,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Visits",
+        "col": 9,
+        "row": 0,
+        "category": "Other",
+        "share": 12.960366
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 9,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 8,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 7,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 6,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 6,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 6,
+        "category": "Cultural",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 6,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 6,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 6,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 6,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 6,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 6,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 6,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 5,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 4,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 3,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 2,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 1,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 0,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 1,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 2,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 3,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 4,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 5,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 6,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 7,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 8,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      },
+      {
+        "measure": "Spending",
+        "col": 9,
+        "row": 0,
+        "category": "Other",
+        "share": 32.91547
+      }
+    ]
+  },
+  "facet": {
+    "column": {
+      "field": "measure",
+      "type": "nominal",
+      "sort": [
+        "Visits",
+        "Spending"
+      ],
+      "header": {
+        "title": null,
+        "labelFontSize": 14,
+        "labelFontWeight": "bold"
+      }
+    }
+  },
+  "spec": {
+    "width": 120,
+    "height": 150,
+    "mark": {
+      "type": "rect",
+      "stroke": "#fff",
+      "strokeWidth": 2
+    },
+    "encoding": {
+      "x": {
+        "field": "col",
+        "type": "ordinal",
+        "axis": null
+      },
+      "y": {
+        "field": "row",
+        "type": "ordinal",
+        "axis": null
+      },
+      "color": {
+        "field": "category",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Cultural",
+            "Other"
+          ],
+          "range": [
+            "#24828A",
+            "#dce5df"
+          ]
+        },
+        "legend": {
+          "title": null
+        }
+      },
+      "tooltip": [
+        {
+          "field": "measure",
+          "title": "Measure"
+        },
+        {
+          "field": "share",
+          "title": "Cultural share (%)",
+          "format": ".1f",
+          "type": "quantitative"
+        }
+      ]
+    }
+  }
+}

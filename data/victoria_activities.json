@@ -1,0 +1,32 @@
+[
+  {
+    "activity": "Visit museums or art galleries",
+    "visitors": 5135559.939101674,
+    "participation_percent": 44.79114641611879
+  },
+  {
+    "activity": "Attend theatre, concerts or other performing arts",
+    "visitors": 3219322.834585241,
+    "participation_percent": 28.07817689883403
+  },
+  {
+    "activity": "Visit history / heritage buildings, sites or monuments",
+    "visitors": 3040619.16449222,
+    "participation_percent": 26.51956550160547
+  },
+  {
+    "activity": "Attend festivals / fairs or cultural events",
+    "visitors": 1777855.17589699,
+    "participation_percent": 15.50603486952703
+  },
+  {
+    "activity": "Indigenous cultural activity",
+    "visitors": 1250343.38957931,
+    "participation_percent": 10.90520108755065
+  },
+  {
+    "activity": "Visit art / craft workshops / studios",
+    "visitors": 602803.6755306299,
+    "participation_percent": 5.257511938530693
+  }
+]

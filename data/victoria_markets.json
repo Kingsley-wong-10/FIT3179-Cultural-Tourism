@@ -1,0 +1,62 @@
+[
+  {
+    "country": "China",
+    "visitors": 252521,
+    "nights": 9208694.109755587,
+    "average_nights": 36.467042779632536
+  },
+  {
+    "country": "New Zealand",
+    "visitors": 157544,
+    "nights": 1320667.584226739,
+    "average_nights": 8.382849135649336
+  },
+  {
+    "country": "United Kingdom",
+    "visitors": 141496,
+    "nights": 3677557.360702768,
+    "average_nights": 25.990539384171765
+  },
+  {
+    "country": "United States of America",
+    "visitors": 138735,
+    "nights": 1625047.74071809,
+    "average_nights": 11.713322094050456
+  },
+  {
+    "country": "India",
+    "visitors": 113534,
+    "nights": 6930289.55350159,
+    "average_nights": 61.04153428489783
+  },
+  {
+    "country": "Viet Nam",
+    "visitors": 66136,
+    "nights": 1974098.52658907,
+    "average_nights": 29.8490765481594
+  },
+  {
+    "country": "Singapore",
+    "visitors": 62435,
+    "nights": 830012.1870111204,
+    "average_nights": 13.29402077378266
+  },
+  {
+    "country": "Korea",
+    "visitors": 61362,
+    "nights": 1154892.20524537,
+    "average_nights": 18.82096745942717
+  },
+  {
+    "country": "Germany",
+    "visitors": 60098,
+    "nights": 1394705.497543789,
+    "average_nights": 23.207186554357698
+  },
+  {
+    "country": "Hong Kong",
+    "visitors": 57828,
+    "nights": 1036760.13672016,
+    "average_nights": 17.928341577093448
+  }
+]

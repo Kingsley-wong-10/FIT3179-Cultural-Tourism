@@ -1,0 +1,20 @@
+[
+  {
+    "visitor_type": "International",
+    "visitors": 1664794,
+    "regional_visitors": 285324,
+    "regional_share": 0.17138697039994139
+  },
+  {
+    "visitor_type": "Domestic Overnight",
+    "visitors": 4917524,
+    "regional_visitors": 2586008,
+    "regional_share": 0.5258760302949208
+  },
+  {
+    "visitor_type": "Domestic Day",
+    "visitors": 4883252,
+    "regional_visitors": 2567297,
+    "regional_share": 0.5257351043935475
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Wave Hill Walk Off Route",
+    "class": "Indigenous",
+    "lon": 130.8487142857143,
+    "lat": -17.437285714285714,
+    "state": "NT"
+  },
+  {
+    "name": "Cockatoo Island",
+    "class": "Historic",
+    "lon": 151.17325,
+    "lat": -33.84725,
+    "state": "NSW"
+  },
+  {
+    "name": "Cascades Female Factory",
+    "class": "Historic",
+    "lon": 147.29962500000002,
+    "lat": -42.893875,
+    "state": "TAS"
+  },
+  {
+    "name": "Cheetup Rock Shelter",
+    "class": "Indigenous",
+    "lon": 122.55199999999999,
+    "lat": -33.858000000000004,
+    "state": "WA"
+  },
+  {
+    "name": "Wilgie Mia Aboriginal Ochre Mine",
+    "class": "Indigenous",
+    "lon": 117.73499999999999,
+    "lat": -26.820999999999998,
+    "state": "WA"
+  },
+  {
+    "name": "Koonalda Cave",
+    "class": "Indigenous",
+    "lon": 129.837,
+    "lat": -31.4035,
+    "state": "SA"
+  },
+  {
+    "name": "City of Broken Hill",
+    "class": "Historic",
+    "lon": 141.48961538461538,
+    "lat": -31.952461538461538,
+    "state": "NSW"
+  },
+  {
+    "name": "Queen Victoria Market",
+    "class": "Historic",
+    "lon": 144.957,
+    "lat": -37.80775,
+    "state": "VIC"
+  },
+  {
+    "name": "Flemington Racecourse",
+    "class": "Historic",
+    "lon": 144.91475,
+    "lat": -37.78975,
+    "state": "VIC"
+  },
+  {
+    "name": "Castlemaine Diggings National Heritage Park",
+    "class": "Historic",
+    "lon": 144.2360857142857,
+    "lat": -37.11071904761905,
+    "state": "VIC"
+  },
+  {
+    "name": "Wurrwurrwuy",
+    "class": "Indigenous",
+    "lon": 136.93275,
+    "lat": -12.33075,
+    "state": "NT"
+  },
+  {
+    "name": "Moree Baths and Swimming Pool",
+    "class": "Indigenous",
+    "lon": 149.8465,
+    "lat": -29.47425,
+    "state": "NSW"
+  },
+  {
+    "name": "Murtoa No 1 Grain Store",
+    "class": "Historic",
+    "lon": 142.47925,
+    "lat": -36.62325,
+    "state": "VIC"
+  },
+  {
+    "name": "Point Cook Air Base",
+    "class": "Historic",
+    "lon": 144.751,
+    "lat": -37.93525,
+    "state": "VIC"
+  },
+  {
+    "name": "Budj Bim National Heritage Landscape - Tyrendarra Area",
+    "class": "Indigenous",
+    "lon": 141.763,
+    "lat": -38.191,
+    "state": "VIC"
+  },
+  {
+    "name": "Point Nepean Defence Sites and Quarantine Station Area",
+    "class": "Historic",
+    "lon": 144.6852,
+    "lat": -38.312400000000004,
+    "state": "VIC"
+  },
+  {
+    "name": "High Court of Australia (former)",
+    "class": "Historic",
+    "lon": 144.959,
+    "lat": -37.814,
+    "state": "VIC"
+  },
+  {
+    "name": "QANTAS Hangar Longreach",
+    "class": "Historic",
+    "lon": 144.271,
+    "lat": -23.43975,
+    "state": "QLD"
+  },
+  {
+    "name": "HMAS Sydney II and HSK Kormoran Shipwreck Sites",
+    "class": "Historic",
+    "lon": 111.14525,
+    "lat": -26.172375,
+    "state": "EXT"
+  },
+  {
+    "name": "Great Ocean Road and Scenic Environs",
+    "class": "Historic",
+    "lon": 143.45671232876714,
+    "lat": -38.64313242009132,
+    "state": "VIC"
+  },
+  {
+    "name": "Coranderrk",
+    "class": "Indigenous",
+    "lon": 145.50475,
+    "lat": -37.68975,
+    "state": "VIC"
+  },
+  {
+    "name": "The Battle of the Coral Sea Site",
+    "class": "Historic",
+    "lon": 156.174,
+    "lat": -15.419166666666667,
+    "state": "EXT"
+  },
+  {
+    "name": "The Burke, Wills, King and Yandruwandha National Heritage Place",
+    "class": "Historic",
+    "lon": 140.8189,
+    "lat": -27.7195,
+    "state": "SA"
+  },
+  {
+    "name": "Sidney Myer Music Bowl",
+    "class": "Historic",
+    "lon": 144.97424999999998,
+    "lat": -37.8235,
+    "state": "VIC"
+  },
+  {
+    "name": "High Court - National Gallery Precinct",
+    "class": "Historic",
+    "lon": 149.13725,
+    "lat": -35.3005,
+    "state": "ACT"
+  },
+  {
+    "name": "ICI Building (former)",
+    "class": "Historic",
+    "lon": 144.97375,
+    "lat": -37.809,
+    "state": "VIC"
+  },
+  {
+    "name": "Eureka Stockade Gardens",
+    "class": "Historic",
+    "lon": 143.88400000000001,
+    "lat": -37.5645,
+    "state": "VIC"
+  },
+  {
+    "name": "The Adelaide Park Lands and City Layout",
+    "class": "Historic",
+    "lon": 138.59878028169013,
+    "lat": -34.91995774647887,
+    "state": "SA"
+  },
+  {
+    "name": "North Head - Sydney",
+    "class": "Historic",
+    "lon": 151.29375,
+    "lat": -33.81525,
+    "state": "NSW"
+  },
+  {
+    "name": "First Government House Site",
+    "class": "Historic",
+    "lon": 151.21125,
+    "lat": -33.86325,
+    "state": "NSW"
+  },
+  {
+    "name": "Rippon Lea House and Garden",
+    "class": "Historic",
+    "lon": 144.999,
+    "lat": -37.87975,
+    "state": "VIC"
+  },
+  {
+    "name": "Darlington Probation Station",
+    "class": "Historic",
+    "lon": 148.065,
+    "lat": -42.58725,
+    "state": "TAS"
+  },
+  {
+    "name": "Mount William Stone Hatchet Quarry",
+    "class": "Indigenous",
+    "lon": 144.81074999999998,
+    "lat": -37.21225,
+    "state": "VIC"
+  },
+  {
+    "name": "Cyprus Hellene Club - Australian Hall",
+    "class": "Indigenous",
+    "lon": 151.2095,
+    "lat": -33.878,
+    "state": "NSW"
+  },
+  {
+    "name": "Ngarrabullgan",
+    "class": "Indigenous",
+    "lon": 144.8435882352941,
+    "lat": -16.843823529411765,
+    "state": "QLD"
+  },
+  {
+    "name": "Jordan River Levee site",
+    "class": "Indigenous",
+    "lon": 147.266,
+    "lat": -42.704,
+    "state": "TAS"
+  },
+  {
+    "name": "Western Tasmania Aboriginal Cultural Landscape",
+    "class": "Indigenous",
+    "lon": 144.68842307692307,
+    "lat": -41.141423076923076,
+    "state": "TAS"
+  },
+  {
+    "name": "Bondi Beach",
+    "class": "Historic",
+    "lon": 151.279,
+    "lat": -33.8935,
+    "state": "NSW"
+  },
+  {
+    "name": "Cascades Female Factory Yard 4 North",
+    "class": "Historic",
+    "lon": 147.29975000000002,
+    "lat": -42.8935,
+    "state": "TAS"
+  },
+  {
+    "name": "Parkes Observatory",
+    "class": "Historic",
+    "lon": 148.26825,
+    "lat": -32.99725,
+    "state": "NSW"
+  },
+  {
+    "name": "Hermannsburg Historic Precinct",
+    "class": "Indigenous",
+    "lon": 132.775,
+    "lat": -23.94525,
+    "state": "NT"
+  },
+  {
+    "name": "Goldfields Water Supply Scheme, Western Australia",
+    "class": "Historic",
+    "lon": 118.24990308370043,
+    "lat": -31.477660792951543,
+    "state": "WA"
+  },
+  {
+    "name": "Batavia Shipwreck Site and Survivor Camps Area 1629 - Houtman Abrolhos",
+    "class": "Historic",
+    "lon": 113.7327142857143,
+    "lat": -28.461714285714287,
+    "state": "WA"
+  },
+  {
+    "name": "Centennial Park",
+    "class": "Historic",
+    "lon": 151.2335,
+    "lat": -33.896,
+    "state": "NSW"
+  },
+  {
+    "name": "Recherche Bay (North East Peninsula) Area",
+    "class": "Historic",
+    "lon": 146.917,
+    "lat": -43.533500000000004,
+    "state": "TAS"
+  },
+  {
+    "name": "Kamay Botany Bay: botanical collection sites",
+    "class": "Historic",
+    "lon": 151.20236842105263,
+    "lat": -34.006596491228066,
+    "state": "NSW"
+  },
+  {
+    "name": "Fremantle Prison (former)",
+    "class": "Historic",
+    "lon": 115.7515,
+    "lat": -32.055125,
+    "state": "WA"
+  },
+  {
+    "name": "Dampier Archipelago (including Burrup Peninsula)",
+    "class": "Indigenous",
+    "lon": 116.70121126760563,
+    "lat": -20.594345070422534,
+    "state": "WA"
+  },
+  {
+    "name": "Glenrowan Heritage Precinct",
+    "class": "Historic",
+    "lon": 146.2235,
+    "lat": -36.463,
+    "state": "VIC"
+  },
+  {
+    "name": "Sydney Opera House",
+    "class": "Historic",
+    "lon": 151.2145,
+    "lat": -33.858000000000004,
+    "state": "NSW"
+  },
+  {
+    "name": "Hyde Park Barracks",
+    "class": "Historic",
+    "lon": 151.21275,
+    "lat": -33.8695,
+    "state": "NSW"
+  },
+  {
+    "name": "Royal Exhibition Building National Historic Place",
+    "class": "Historic",
+    "lon": 144.97125,
+    "lat": -37.80475,
+    "state": "VIC"
+  },
+  {
+    "name": "South Australian Old and New Parliament Houses",
+    "class": "Historic",
+    "lon": 138.59875,
+    "lat": -34.921,
+    "state": "SA"
+  },
+  {
+    "name": "Mawsons Huts and Mawsons Huts Historic Site",
+    "class": "Historic",
+    "lon": 142.673,
+    "lat": -67.0095,
+    "state": "EXT"
+  },
+  {
+    "name": "Tree of Knowledge and curtilage",
+    "class": "Historic",
+    "lon": 145.29,
+    "lat": -23.552,
+    "state": "QLD"
+  },
+  {
+    "name": "Richmond Bridge",
+    "class": "Historic",
+    "lon": 147.44,
+    "lat": -42.734,
+    "state": "TAS"
+  },
+  {
+    "name": "Newman College",
+    "class": "Historic",
+    "lon": 144.96375,
+    "lat": -37.79575,
+    "state": "VIC"
+  },
+  {
+    "name": "Australian Academy of Science Building",
+    "class": "Historic",
+    "lon": 149.123,
+    "lat": -35.283500000000004,
+    "state": "ACT"
+  },
+  {
+    "name": "Coal Mines Historic Site",
+    "class": "Historic",
+    "lon": 147.717,
+    "lat": -42.9825,
+    "state": "TAS"
+  },
+  {
+    "name": "Mithaka Cultural Landscape",
+    "class": "Indigenous",
+    "lon": 140.51299592668022,
+    "lat": -25.372560081466393,
+    "state": "QLD"
+  },
+  {
+    "name": "Sydney Gay and Lesbian Mardi Gras Parade Route",
+    "class": "Historic",
+    "lon": 151.21880000000002,
+    "lat": -33.880399999999995,
+    "state": "NSW"
+  },
+  {
+    "name": "Governors' Domain and Civic Precinct",
+    "class": "Historic",
+    "lon": 151.21550000000002,
+    "lat": -33.86425,
+    "state": "NSW"
+  },
+  {
+    "name": "Victorian Trades Hall",
+    "class": "Historic",
+    "lon": 144.96675000000002,
+    "lat": -37.8065,
+    "state": "VIC"
+  },
+  {
+    "name": "HMS Sirius Shipwreck",
+    "class": "Historic",
+    "lon": 167.9565,
+    "lat": -29.05925,
+    "state": "EXT"
+  },
+  {
+    "name": "Beechworth Administrative Precinct",
+    "class": "Historic",
+    "lon": 146.68925,
+    "lat": -36.35875,
+    "state": "VIC"
+  },
+  {
+    "name": "Kingston and Arthurs Vale Historic Area",
+    "class": "Historic",
+    "lon": 167.962,
+    "lat": -29.055500000000002,
+    "state": "EXT"
+  },
+  {
+    "name": "Old Great North Road",
+    "class": "Historic",
+    "lon": 150.9965,
+    "lat": -33.38225,
+    "state": "NSW"
+  },
+  {
+    "name": "Woolmers Estate",
+    "class": "Historic",
+    "lon": 147.15525000000002,
+    "lat": -41.623,
+    "state": "TAS"
+  },
+  {
+    "name": "Brickendon Estate",
+    "class": "Historic",
+    "lon": 147.1336,
+    "lat": -41.6278,
+    "state": "TAS"
+  },
+  {
+    "name": "HMVS Cerberus",
+    "class": "Historic",
+    "lon": 145.008,
+    "lat": -37.9675,
+    "state": "VIC"
+  },
+  {
+    "name": "Old Parliament House and Curtilage",
+    "class": "Historic",
+    "lon": 149.13,
+    "lat": -35.30275,
+    "state": "ACT"
+  },
+  {
+    "name": "Echuca Wharf",
+    "class": "Historic",
+    "lon": 144.7479375,
+    "lat": -36.1220625,
+    "state": "VIC"
+  },
+  {
+    "name": "Brewarrina Aboriginal Fish Traps (Baiame's Ngunnhu)",
+    "class": "Indigenous",
+    "lon": 146.85475,
+    "lat": -29.957749999999997,
+    "state": "NSW"
+  },
+  {
+    "name": "Dirk Hartog Landing Site 1616 - Cape Inscription Area",
+    "class": "Historic",
+    "lon": 112.98349999999999,
+    "lat": -25.497833333333332,
+    "state": "WA"
+  },
+  {
+    "name": "Bonegilla Migrant Camp - Block 19",
+    "class": "Historic",
+    "lon": 147.01074999999997,
+    "lat": -36.13,
+    "state": "VIC"
+  },
+  {
+    "name": "Myall Creek Massacre and Memorial Site",
+    "class": "Indigenous",
+    "lon": 150.71450000000002,
+    "lat": -29.77925,
+    "state": "NSW"
+  },
+  {
+    "name": "Melbourne Cricket Ground",
+    "class": "Historic",
+    "lon": 144.98325,
+    "lat": -37.82,
+    "state": "VIC"
+  },
+  {
+    "name": "Australian War Memorial and the Memorial Parade",
+    "class": "Historic",
+    "lon": 149.14475,
+    "lat": -35.28425,
+    "state": "ACT"
+  },
+  {
+    "name": "Quinkan Country",
+    "class": "Indigenous",
+    "lon": 144.4711914893617,
+    "lat": -15.704148936170213,
+    "state": "QLD"
+  },
+  {
+    "name": "Snowy Mountains Scheme",
+    "class": "Historic",
+    "lon": 148.50383006535947,
+    "lat": -36.027718954248364,
+    "state": "NSW"
+  },
+  {
+    "name": "Abbotsford Convent",
+    "class": "Historic",
+    "lon": 145.00425,
+    "lat": -37.803,
+    "state": "VIC"
+  },
+  {
+    "name": "Australian Cornish Mining Sites: Burra",
+    "class": "Historic",
+    "lon": 138.9312,
+    "lat": -33.6736,
+    "state": "SA"
+  },
+  {
+    "name": "Australian Cornish Mining Sites: Moonta",
+    "class": "Historic",
+    "lon": 137.60775,
+    "lat": -34.0715,
+    "state": "SA"
+  },
+  {
+    "name": "Sydney Harbour Bridge",
+    "class": "Historic",
+    "lon": 151.21025,
+    "lat": -33.850750000000005,
+    "state": "NSW"
+  },
+  {
+    "name": "Parramatta Female Factory and Institutions Precinct",
+    "class": "Historic",
+    "lon": 151.00025,
+    "lat": -33.803749999999994,
+    "state": "NSW"
+  },
+  {
+    "name": "Kurnell Peninsula Headland",
+    "class": "Historic",
+    "lon": 151.221,
+    "lat": -34.018,
+    "state": "NSW"
+  },
+  {
+    "name": "Budj Bim National Heritage Landscape - Mt Eccles Lake Condah Area",
+    "class": "Indigenous",
+    "lon": 141.8731923076923,
+    "lat": -38.06696153846154,
+    "state": "VIC"
+  },
+  {
+    "name": "Melbourne's Domain Parkland and Memorial Precinct",
+    "class": "Historic",
+    "lon": 144.97820000000002,
+    "lat": -37.8346,
+    "state": "VIC"
+  },
+  {
+    "name": "Old Government House and the Government Domain",
+    "class": "Historic",
+    "lon": 150.99550000000002,
+    "lat": -33.80825,
+    "state": "NSW"
+  },
+  {
+    "name": "Port Arthur Historic Site",
+    "class": "Historic",
+    "lon": 147.85594736842106,
+    "lat": -43.14857894736842,
+    "state": "TAS"
+  }
+]

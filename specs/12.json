@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "values": [
+      {
+        "type": "Domestic day",
+        "index": 157.24438726007529,
+        "benchmark": 100,
+        "max": 180
+      },
+      {
+        "type": "Domestic overnight",
+        "index": 144.40282797202386,
+        "benchmark": 100,
+        "max": 180
+      },
+      {
+        "type": "International",
+        "index": 109.97725550466262,
+        "benchmark": 100,
+        "max": 180
+      }
+    ]
+  },
+  "encoding": {
+    "y": {
+      "field": "type",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "labelLimit": 130
+      }
+    },
+    "x": {
+      "field": "index",
+      "type": "quantitative",
+      "title": "Nominal spending index (2019 = 100)",
+      "scale": {
+        "domain": [
+          0,
+          180
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#edf1ec",
+        "height": 35
+      },
+      "encoding": {
+        "x": {
+          "field": "max",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#C16742",
+        "height": 16
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "type",
+            "title": "Visitor type"
+          },
+          {
+            "field": "index",
+            "title": "2024 index",
+            "format": ".1f",
+            "type": "quantitative"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "tick",
+        "color": "#233F49",
+        "thickness": 3,
+        "size": 42
+      },
+      "encoding": {
+        "x": {
+          "field": "benchmark",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 4,
+        "fontSize": 11,
+        "color": "#233F49"
+      },
+      "encoding": {
+        "text": {
+          "field": "index",
+          "type": "quantitative",
+          "format": ".0f"
+        }
+      }
+    }
+  ]
+}

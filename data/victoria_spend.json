@@ -1,0 +1,32 @@
+[
+  {
+    "visitor_type": "Domestic day",
+    "year": 2019,
+    "spend_aud": 709244087.2080137
+  },
+  {
+    "visitor_type": "Domestic day",
+    "year": 2024,
+    "spend_aud": 1115246519.108555
+  },
+  {
+    "visitor_type": "Domestic overnight",
+    "year": 2019,
+    "spend_aud": 3611112681.176418
+  },
+  {
+    "visitor_type": "Domestic overnight",
+    "year": 2024,
+    "spend_aud": 5214548832.875121
+  },
+  {
+    "visitor_type": "International",
+    "year": 2019,
+    "spend_aud": 6210640589.463351
+  },
+  {
+    "visitor_type": "International",
+    "year": 2024,
+    "spend_aud": 6830292069.550395
+  }
+]

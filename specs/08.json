@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/activities_chart.json"
+  },
+  "params": [
+    {
+      "name": "visitorType",
+      "value": "All visitors",
+      "bind": {
+        "input": "select",
+        "name": "Visitor type: ",
+        "options": [
+          "All visitors",
+          "Domestic Day",
+          "Domestic Overnight",
+          "International"
+        ]
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.visitor_type == visitorType"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "color": "#24828A",
+    "cornerRadiusEnd": 2
+  },
+  "encoding": {
+    "y": {
+      "field": "label",
+      "type": "nominal",
+      "sort": [
+        "Museums & galleries",
+        "Performing arts",
+        "History & heritage",
+        "Festivals & fairs",
+        "Indigenous culture",
+        "Art & craft studios"
+      ],
+      "axis": {
+        "title": null,
+        "labelLimit": 150
+      }
+    },
+    "x": {
+      "field": "visitors",
+      "type": "quantitative",
+      "title": "Activity visits",
+      "axis": {
+        "format": ".2s"
+      },
+      "scale": {
+        "domain": [
+          0,
+          5500000
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "activity",
+        "title": "Activity"
+      },
+      {
+        "field": "visitors",
+        "title": "Activity visits",
+        "format": ",.0f",
+        "type": "quantitative"
+      },
+      {
+        "field": "participation_percent",
+        "title": "Share of cultural visitors (%)",
+        "format": ".1f",
+        "type": "quantitative"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 250,
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Arial",
+    "axis": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "titlePadding": 12,
+      "gridColor": "#e6ece9",
+      "domain": false,
+      "tickColor": "#c8d4d0"
+    },
+    "legend": {
+      "labelColor": "#233F49",
+      "titleColor": "#233F49",
+      "orient": "bottom",
+      "titleFontSize": 11,
+      "labelFontSize": 11
+    },
+    "title": {
+      "color": "#233F49"
+    }
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "values": [
+      {
+        "type": "International",
+        "reach": "Regional visit",
+        "share": 0.17138697039994139
+      },
+      {
+        "type": "International",
+        "reach": "No regional visit",
+        "share": 0.8286130296000587
+      },
+      {
+        "type": "Domestic\nOvernight",
+        "reach": "Regional visit",
+        "share": 0.5258760302949208
+      },
+      {
+        "type": "Domestic\nOvernight",
+        "reach": "No regional visit",
+        "share": 0.4741239697050792
+      },
+      {
+        "type": "Domestic\nDay",
+        "reach": "Regional visit",
+        "share": 0.5257351043935475
+      },
+      {
+        "type": "Domestic\nDay",
+        "reach": "No regional visit",
+        "share": 0.47426489560645246
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "height": 33
+  },
+  "encoding": {
+    "y": {
+      "field": "type",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "labelLimit": 130
+      }
+    },
+    "x": {
+      "field": "share",
+      "type": "quantitative",
+      "title": "Share of cultural visitors",
+      "stack": "normalize",
+      "axis": {
+        "format": ".0%"
+      }
+    },
+    "color": {
+      "field": "reach",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Regional visit",
+          "No regional visit"
+        ],
+        "range": [
+          "#24828A",
+          "#dce5df"
+        ]
+      },
+      "legend": {
+        "title": null
+      }
+    },
+    "order": {
+      "field": "reach",
+      "sort": "descending"
+    },
+    "tooltip": [
+      {
+        "field": "type",
+        "title": "Visitor type"
+      },
+      {
+        "field": "reach",
+        "title": "Regional reach"
+      },
+      {
+        "field": "share",
+        "title": "Share",
+        "format": ".1%",
+        "type": "quantitative"
+      }
+    ]
+  }
+}
